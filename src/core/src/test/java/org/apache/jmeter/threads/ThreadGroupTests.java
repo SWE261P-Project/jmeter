@@ -3,18 +3,16 @@ package org.apache.jmeter.threads;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ThreadGroupTest {
-
+public class ThreadGroupTests {
     @Test
     public void testThreadGroupCreation() {
-        ThreadGroup tg = new ThreadGroup();
+        org.apache.jmeter.threads.ThreadGroup tg = new org.apache.jmeter.threads.ThreadGroup();
         assertNotNull(tg, "ThreadGroup should be created successfully");
     }
 
     @Test
     public void testSchedulerDefaults() {
-        ThreadGroup tg = new ThreadGroup();
+        org.apache.jmeter.threads.ThreadGroup tg = new org.apache.jmeter.threads.ThreadGroup();
         assertFalse(tg.getScheduler(), "Scheduler should be false by default");
     }
 }
-
