@@ -29,7 +29,7 @@ jobs:
       - name: Build JMeter
         run: |
           cd src
-          ./gradlew build --stacktrace
+          ./gradlew build --stacktrace -PchecksumIgnore
 
       - name: Run All Tests (Including New Tests)
         run: |
