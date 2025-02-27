@@ -31,7 +31,7 @@
     <trusted-key id='e05f005af50ae94e69701222b9729775c0352d3a' group='com.github.tomakehurst' />
     <trusted-key id='d112630c899f508198c09018105cb91cac2aee0e' group='com.github.vlsi.gradle' />
     <trusted-key id='b0255b26003ef6f82491acd7254e9c64c264c176' group='com.github.weisj' />
-    <trusted-key id='afcc4c7594d09e2182c60e0f7a01b0f236e5430f' group='com.google.auto' />
+    <trusted-key id='c7be5bcc9fec15518cfda882b0f3710fa64900e7' group='com.google.auto' />
     <trusted-key id='3288b8be8512d6c0ca185268c51e6cbc7ff46f0b' group='com.google.auto.service' />
     <trusted-key id='c7be5bcc9fec15518cfda882b0f3710fa64900e7' group='com.google.auto.service' />
     <trusted-key id='c7be5bcc9fec15518cfda882b0f3710fa64900e7' group='com.google.auto.value' />
