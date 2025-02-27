@@ -22,9 +22,11 @@ import java.util.jar.JarFile
 plugins {
     id("java-test-fixtures")
     id("build-logic.jvm-published-library")
+    jacoco // p3
 }
 
 dependencies {
+    
     api(projects.src.launcher)
     api(projects.src.jorphan)
     testImplementation(testFixtures(projects.src.jorphan))
@@ -204,4 +206,8 @@ tasks.jar {
             }
         }
     }
+}
+
+tasks.test {
+    finalizedBy(tasks.jacocoTestReport) // p3
 }

@@ -6,11 +6,13 @@ on:
   pull_request:
     branches: [ main, master ]
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+
     - uses: actions/checkout@v2
     
     - name: Set up JDK 17
@@ -43,3 +45,4 @@ jobs:
     - name: Run tests
       run: ./gradlew test
       continue-on-error: true
+
